@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 589ecabecb5824441a7383b0bde851b7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ConcreteBroken
+    100002: ConcreteBroken.001
+    100004: ConcreteBroken.002
+    100006: ConcreteBroken.003
+    100008: ConcreteBroken.004
+    100010: ConcreteBroken.005
+    100012: ConcreteBroken.006
+    100014: ConcreteBroken.007
+    100016: ConcreteBroken.008
+    100018: ConcreteBroken.009
+    100020: ConcreteBroken.010
+    100022: ConcreteBroken.011
+    100024: ConcreteBroken.012
+    100026: ConcreteBroken.013
+    100028: ConcreteBroken.014
+    100030: ConcreteBroken.015
+    100032: Cube
+    100034: //RootNode
+    400000: ConcreteBroken
+    400002: ConcreteBroken.001
+    400004: ConcreteBroken.002
+    400006: ConcreteBroken.003
+    400008: ConcreteBroken.004
+    400010: ConcreteBroken.005
+    400012: ConcreteBroken.006
+    400014: ConcreteBroken.007
+    400016: ConcreteBroken.008
+    400018: ConcreteBroken.009
+    400020: ConcreteBroken.010
+    400022: ConcreteBroken.011
+    400024: ConcreteBroken.012
+    400026: ConcreteBroken.013
+    400028: ConcreteBroken.014
+    400030: ConcreteBroken.015
+    400032: Cube
+    400034: //RootNode
+    2100000: blockBody
+    2100002: blockCenter
+    2100004: BlockTop
+    2300000: ConcreteBroken
+    2300002: ConcreteBroken.001
+    2300004: ConcreteBroken.002
+    2300006: ConcreteBroken.003
+    2300008: ConcreteBroken.004
+    2300010: ConcreteBroken.005
+    2300012: ConcreteBroken.006
+    2300014: ConcreteBroken.007
+    2300016: ConcreteBroken.008
+    2300018: ConcreteBroken.009
+    2300020: ConcreteBroken.010
+    2300022: ConcreteBroken.011
+    2300024: ConcreteBroken.012
+    2300026: ConcreteBroken.013
+    2300028: ConcreteBroken.014
+    2300030: ConcreteBroken.015
+    2300032: Cube
+    3300000: ConcreteBroken
+    3300002: ConcreteBroken.001
+    3300004: ConcreteBroken.002
+    3300006: ConcreteBroken.003
+    3300008: ConcreteBroken.004
+    3300010: ConcreteBroken.005
+    3300012: ConcreteBroken.006
+    3300014: ConcreteBroken.007
+    3300016: ConcreteBroken.008
+    3300018: ConcreteBroken.009
+    3300020: ConcreteBroken.010
+    3300022: ConcreteBroken.011
+    3300024: ConcreteBroken.012
+    3300026: ConcreteBroken.013
+    3300028: ConcreteBroken.014
+    3300030: ConcreteBroken.015
+    3300032: Cube
+    4300000: ConcreteBroken
+    4300002: ConcreteBroken.015
+    4300004: ConcreteBroken.014
+    4300006: ConcreteBroken.013
+    4300008: ConcreteBroken.012
+    4300010: ConcreteBroken.011
+    4300012: ConcreteBroken.010
+    4300014: ConcreteBroken.009
+    4300016: ConcreteBroken.008
+    4300018: ConcreteBroken.007
+    4300020: ConcreteBroken.006
+    4300022: ConcreteBroken.005
+    4300024: ConcreteBroken.004
+    4300026: ConcreteBroken.003
+    4300028: ConcreteBroken.002
+    4300030: ConcreteBroken.001
+    4300032: Cube
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlockTop
+    second: {fileID: 2100000, guid: 0eb6afaafc6c561408ca8608b15b84d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blockBody
+    second: {fileID: 2100000, guid: 0b2e6bebe1996dd4b94337a8f7e49033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blockCenter
+    second: {fileID: 2100000, guid: 761f272519a5fd44c90a3d9ca76d620e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

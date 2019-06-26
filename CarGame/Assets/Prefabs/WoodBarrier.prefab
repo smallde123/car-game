@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &270860168415195357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4271673197911413848}
+  - component: {fileID: 3967051320705430604}
+  - component: {fileID: 1375313454076493218}
+  - component: {fileID: 7612904316611123143}
+  - component: {fileID: 3615623541764823752}
+  - component: {fileID: 4469903400105414897}
+  m_Layer: 0
+  m_Name: WoodBarrier
+  m_TagString: wood
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4271673197911413848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270860168415195357}
+  m_LocalRotation: {x: -0.49991274, y: -0.49991274, z: -0.50008726, w: 0.50008726}
+  m_LocalPosition: {x: -0.3, y: 1.56, z: 10.7}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: -90}
+--- !u!33 &3967051320705430604
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270860168415195357}
+  m_Mesh: {fileID: 4300000, guid: db411904ea50569459df01bcbf100ee9, type: 3}
+--- !u!23 &1375313454076493218
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270860168415195357}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: eecd53cd962577544a56bc8037a2f455, type: 2}
+  - {fileID: 2100000, guid: 2b2effc8643c7504693bc7497a78c126, type: 2}
+  - {fileID: 2100000, guid: 1c2e2205a331e7a49ae75487d0a8c239, type: 2}
+  - {fileID: 2100000, guid: c056747d53849dd4f903ae3fc03db6be, type: 2}
+  - {fileID: 2100000, guid: 4668dc1c1e4e6d54587903e48be10671, type: 2}
+  - {fileID: 2100000, guid: 225c3daafeeb542418046390b3ed41a4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &7612904316611123143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270860168415195357}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.017787203, y: 0.044739395, z: 0.033063933}
+  m_Center: {x: 0.0005963663, y: 0.000024707057, z: 0.000967808}
+--- !u!114 &3615623541764823752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270860168415195357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c7cbd4f1c740942b817471788f654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedVersion: {fileID: 8417599241130641694, guid: 7c8ba0e62e6159e4591396300c60e6b7,
+    type: 3}
+--- !u!54 &4469903400105414897
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270860168415195357}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379a638e2a6d61341ac81fcd18605b92, type: 3}
+  m_Name: Truck
+  m_EditorClassIdentifier: 
+  vehicleName: Truck
+  vehicleMesh: {fileID: 4300000, guid: 5b304a6535a25ca488a5f994c4e64d34, type: 3}
+  carColor: {fileID: 2100000, guid: f122d7a11e5266b429055f6d1a6d8a4f, type: 2}
+  cost: 100
+  cashEarned: 30
+  maxRepairTime: 480
+  description: Medium speed vehicle, high durability
+  isBrokeDown: 0
+  vSpeed: 30
+  vHealth: 120
