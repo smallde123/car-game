@@ -29,7 +29,6 @@ namespace CompleteProject
                 print("delivered");
                 Destroy(other.gameObject);
                 audio.Play();
-                playerScript.GetComponent<PlayerStats>().AddDelivered();
             }
         }
     }

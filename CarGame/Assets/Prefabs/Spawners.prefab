@@ -99,7 +99,7 @@ MonoBehaviour:
   - {fileID: 3394376056927539489}
   prefab:
   - {fileID: 270860168415195357, guid: c07dec5e97ef2f5469ded152f467968e, type: 3}
-  - {fileID: 2710777347836381370, guid: c1301a7f4f97d994ca897022bfcfbe35, type: 3}
+  - {fileID: 3321829939789822294, guid: b83edb82464c281448f5609807a23d64, type: 3}
   - {fileID: 270860168415195357, guid: c07dec5e97ef2f5469ded152f467968e, type: 3}
   - {fileID: 3321829939789822294, guid: b83edb82464c281448f5609807a23d64, type: 3}
 --- !u!1 &3846580601414124405
@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 7403759390503058244}
   - component: {fileID: 1633664517052522676}
   - component: {fileID: 7836173540976625183}
+  - component: {fileID: 537070261464476757}
   m_Layer: 0
   m_Name: SpawnPoint_2
   m_TagString: Untagged
@@ -179,6 +180,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &537070261464476757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3846580601414124405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3b0ca3ef6452e4b9dd827d4c24aac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 7403759390503058244}
+  controller: {fileID: 0}
+  power: {fileID: 0}
 --- !u!1 &8196352106157243868
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,6 +206,7 @@ GameObject:
   - component: {fileID: 3394376056927539489}
   - component: {fileID: 4542908831647156803}
   - component: {fileID: 3720964290773192219}
+  - component: {fileID: 410516419888054316}
   m_Layer: 0
   m_Name: SpawnPoint_3
   m_TagString: Untagged
@@ -256,6 +273,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &410516419888054316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196352106157243868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3b0ca3ef6452e4b9dd827d4c24aac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 3394376056927539489}
+  controller: {fileID: 0}
+  power: {fileID: 0}
 --- !u!1 &8360658875399273146
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +299,7 @@ GameObject:
   - component: {fileID: 2871508405346157195}
   - component: {fileID: 6326778365533624699}
   - component: {fileID: 3303781818505592784}
+  - component: {fileID: 5973430992503054032}
   m_Layer: 0
   m_Name: SpawnPoint_1
   m_TagString: Untagged
@@ -333,3 +366,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &5973430992503054032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360658875399273146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3b0ca3ef6452e4b9dd827d4c24aac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2871508405346157195}
+  controller: {fileID: 0}
+  power: {fileID: 0}

@@ -58,6 +58,9 @@ public class DeleteScript : MonoBehaviour
             Destroy(col.gameObject);
         }
 
-
+        if (col.gameObject.tag == ("powerup"))
+        {
+            Destroy(col.gameObject);
+        }
     }
 }

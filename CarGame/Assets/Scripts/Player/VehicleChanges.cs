@@ -11,12 +11,9 @@ public class VehicleChanges : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(GetComponent<MeshFilter>().mesh.name != ("TaxiCab Instance") || GetComponent<MeshFilter>().mesh.name != ("UtilVan Instance"))
-        {
             int prefab_mat = Random.Range(lowRange, highRange);
 
             this.gameObject.GetComponent<MeshRenderer>().material = carMat[prefab_mat];
-        }
     }
 
     // Update is called once per frame

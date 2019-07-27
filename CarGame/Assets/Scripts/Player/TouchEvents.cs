@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CompleteProject
-{
 
     public class TouchEvents : MonoBehaviour
     {
@@ -15,9 +13,12 @@ namespace CompleteProject
         public MeshRenderer theRenderer;
         public MeshCollider theCollider;
         public float timer = 0.0f;
+        public float moveDist = 5.0f;
         public PlayerStats stats;
+        public GameObject carBod;
 
         public bool canPlay = false;
+
 
 
 
@@ -26,6 +27,7 @@ namespace CompleteProject
         {
             GetComponent<MeshRenderer>().enabled = false;
             carAnim = GetComponent<Animator>();
+            theRenderer.enabled = false;
         }
 
         // Update is called once per frame
@@ -34,13 +36,13 @@ namespace CompleteProject
             //While animation is playing dont allow player damage
             if (this.carAnim.GetCurrentAnimatorStateInfo(0).IsName("carSpinRight"))
             {
-                GetComponentInParent<PlayerStats>().canTakeDamage = false;
+                //GetComponentInParent<PlayerStats>().canTakeDamage = false;
             }
             else
             {
                 if(stats.isBoosting == false)
                 {
-                    GetComponentInParent<PlayerStats>().canTakeDamage = true;
+                    //GetComponentInParent<PlayerStats>().canTakeDamage = true;
                 }
             }
 
@@ -57,6 +59,8 @@ namespace CompleteProject
                 skidLeft.emitting = false;
                 skidRight.emitting = false;
             }
+
+            moveDist = Mathf.Clamp(moveDist, -5, 5);
         }
 
         public void StartGame()
@@ -64,13 +68,9 @@ namespace CompleteProject
             if (!canPlay)
             {
                 canPlay = true;
-                //timer = 0.0f;
                 carAnim.Play("carStartForward");
-                //StartCoroutine(Blink(3.0f));
-                //StartCoroutine(EnableCollider(3.0f));
                 theRenderer.enabled = true;
                 theCollider.enabled = true;
-                //theCollider.enabled = false;
             }
         }
 
@@ -159,5 +159,3 @@ namespace CompleteProject
             }
         }
     }
-
-}

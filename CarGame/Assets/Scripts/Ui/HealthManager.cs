@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CompleteProject
-{
 
     public class HealthManager : MonoBehaviour
     {
@@ -33,5 +31,3 @@ namespace CompleteProject
             health += num;
         }
     }
-
-}

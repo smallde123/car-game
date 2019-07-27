@@ -30,7 +30,6 @@ namespace CompleteProject
                 GetComponent<Rotation>().enabled = false;
                 GetComponent<Rigidbody>().constraints &= ~RigidbodyConstraints.FreezePositionY;
                 audio.Play();
-                playerScript.GetComponent<PlayerStats>().AddRuined();
             }
         }
     }

@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CompleteProject
-{
 
     public class CashManager : MonoBehaviour
     {
@@ -56,5 +54,3 @@ namespace CompleteProject
             SaveCash();
         }
     }
-
-}
